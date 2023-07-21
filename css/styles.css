@@ -11,6 +11,7 @@
 }
 /** -----------------------BASE STYLES----------------------- */
 
+/* reset start */
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
@@ -25,7 +26,45 @@ body {
   list-style-type: none;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /** -----------------------COMPONENTS STYLES------------------- */
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 
 .section-title {
   color: var(--navyblue);
@@ -37,6 +76,11 @@ body {
 }
 
 /** -----------------------HEADER------------------------------ */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .header-logo {
   color: var(--iris);
@@ -88,6 +132,7 @@ body {
 
 .hero {
   background-color: var(--navyblue);
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -96,6 +141,8 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero-btn {
@@ -107,6 +154,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin-top: 48px;
 }
 
 .hero-btn:hover,
@@ -117,6 +165,8 @@ body {
 /* ---------------------ADVANTAGES--------------------------- */
 
 .advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-list {
 }
@@ -129,6 +179,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .advantages-item-text {
@@ -140,8 +191,11 @@ body {
 
 /* ---------------------PROJECTS--------------------------- */
 .projects {
+  padding-bottom: 120px;
 }
 .projects-title {
+  max-width: 323px;
+  margin: 0 auto;
 }
 .projects-list {
 }
