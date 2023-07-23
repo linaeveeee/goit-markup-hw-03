@@ -340,6 +340,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-list-item {
 }
