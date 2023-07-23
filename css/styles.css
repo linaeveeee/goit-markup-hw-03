@@ -99,7 +99,6 @@ img {
 
 .header-menu-list {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
 }
 
@@ -127,6 +126,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -335,11 +335,11 @@ img {
 }
 
 .portfolio-menu-list {
-  margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
   row-gap: 48px;
 }
 .portfolio-list-item {
