@@ -83,8 +83,7 @@ img {
 /** -----------------------HEADER------------------------------ */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .header-container {
@@ -96,11 +95,12 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  gap: 76px;
 }
 
 .header-menu-list {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
   gap: 40px;
 }
 
@@ -112,6 +112,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-blue {
@@ -188,6 +189,7 @@ img {
   margin: 0 auto;
   margin-top: 48px;
   padding: 16px 32px 16px 32px;
+  min-width: 169px
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
@@ -309,6 +311,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-blue {
   color: var(--cloud);
@@ -318,7 +322,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 16px;
   max-width: 264px;
 }
 
