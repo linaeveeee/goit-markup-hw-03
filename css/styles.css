@@ -99,12 +99,11 @@ img {
 
 .header-menu-list {
   display: flex;
+  padding: 24px 0;
   gap: 40px;
 }
 
 .header-menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-logo {
