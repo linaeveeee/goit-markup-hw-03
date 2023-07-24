@@ -280,6 +280,9 @@ img {
   margin-bottom: 32px;
 }
 
+.container-worker {
+  padding: 32px 0;
+}
 .team-subtitle {
   color: var(--navyblue);
   text-align: center;
