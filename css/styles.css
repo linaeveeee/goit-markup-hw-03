@@ -341,10 +341,15 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
   margin-bottom: 72px;
+  gap: 24px;
   row-gap: 48px;
 }
+
+.buttons {
+  gap: 24px;
+}
+
 .portfolio-list-item {
 }
 .menu-btn {
@@ -373,7 +378,6 @@ img {
 
 .portfolio-item {
   padding-bottom: 32px;
-  border: 1px solid var(--cornflower);
   background: var(--white);
   width: calc((100% - 2 * 24px) / 3);
 }
@@ -386,6 +390,7 @@ img {
 
 .container-apps {
   padding: 32px 16px;
+  border: 1px solid var(--cornflower);
   border-top: none;
 }
 
