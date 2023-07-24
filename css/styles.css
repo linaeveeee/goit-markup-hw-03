@@ -384,6 +384,11 @@ img {
   margin-bottom: 32px;
 }
 
+.container-apps {
+  padding: 32px 16px;
+  border-top: none;
+}
+
 .portfolio-subtitle {
   color: var(--navyblue);
   font-size: 20px;
@@ -391,14 +396,10 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 .portfolio-text {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 16px;
-  padding-right: 16px;
 }
